@@ -1,0 +1,204 @@
+html,body{height:100%;}
+body{
+    background: #2F4056;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height:100%;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+#login_warp{
+    /*width: 320px;*/
+    width: 400px;
+    height: 472px;
+    margin:-251px auto 0px;
+    position:relative;
+    top:50%;
+}
+#logo_content{
+    width:100%;
+    /*height:164px;*/
+
+}
+#login_content{
+    background:#ffffff;
+    box-shadow:1px 1px 20px -6px #000000;
+    border-radius:20px;
+    padding:15px 0 25px;
+    height:auto;
+    margin:0px auto;
+}
+#login_content{
+    background: #fff;
+
+}
+#logo_content .logo_title{
+    width: 100%;
+    margin:0px auto;
+}
+#logo_content .logo_title .logo_words{
+    width:100%;
+    height:56px;
+    line-height:56px;
+    text-align:center;
+    font-size:20px;
+    color:#fff;
+}
+#logo_content .logo_title h1{
+    text-indent: -9999px;
+    width:100%;
+    height:100px;
+    background:url(../img/u45.png) no-repeat center center;
+    background-size:76px;
+}
+#logo_content .logo_title .logo_words{
+    /*margin:34px 0 0 6px;*/
+}
+.logo_words p{
+    color: #ffffff;
+    cursor: default;
+}
+.logo_words .line1{
+    font-size: 28px
+}
+.logo_words .line2{
+    font-size: 20px
+}
+#login_content .login_form{
+    width: 270px;
+    margin:0px auto;
+}
+.login_form .input_warp{
+    position: relative;
+    margin-top:10px;
+}
+.login_form .input_warp input{
+    font-size: 16px;
+    width:170px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #cdcccc;
+    padding-left:100px;
+    color:#666666;
+}
+.login_form .input_warp span, .login_form .input_warp label{
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    color: #666666;
+
+}
+.login_form .form_button{
+    margin-top: 10px;
+    width:270px;
+    text-align: center;
+}
+.form-checkbox{
+    margin-top:10px;
+    height:20px;
+    line-height:20px;
+}
+.form-checkbox .checkbox{
+    float:left;
+    display: inline;
+    width:18px;
+    height:18px;
+    border:1px solid #dcdcdd;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+.form-checkbox .checkbox.rememberPwd{
+    background: url("../img/choiced.png") no-repeat left 3px;
+}
+.form-checkbox span{
+    float:left;
+    display:inline;
+    font-size:13px;
+    color: #4f90d4;
+    vertical-align: middle;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.form_button #userlogin{
+    display: inline-block;
+    background: #4f90d4;
+    color: #f6f9fc;
+    text-align: center;
+    width:100%;
+    height: 40px;
+    border: none;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    cursor:pointer;
+
+}
+.form_button #userregister{
+    display: inline-block;
+    float:right;
+    box-sizing: border-box;
+    background: #fff;
+    color: #4f90d4;
+    text-align: center;
+    width:120px;
+    height: 40px;
+    border: 1px solid #4f90d4;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    cursor:pointer;
+}
+.error{
+    float:right;
+    display:inline;
+    color: #f00;
+    font-size:13px;
+    height:20px;
+}
+#login_content h3{
+    text-align: center;
+    color:#4f90d4;
+    line-height: 40px;
+    font-size: 18px;
+}
+.idencode{
+    margin-top:10px
+}
+.idencode input{
+    width:100px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding-left:10px;
+    border: 1px solid #cdcccc;
+    color:#666666;
+}
+.idencode span{
+    float:right;
+    padding:0 10px;
+    font-size: 14px;
+    line-height: 40px;
+    color:#4f90d4;
+    cursor: pointer;
+}
+.idencode .msgs1{
+    color:gray
+}
+.usererrorspan{
+    color:red;
+    font-size: 12px;
+    float:right
+}
+.pwderrorspan{
+    color:red;
+    font-size: 12px;
+    float:right
+}
+.alertbox{
+    overflow: hidden;
+}
+.passcode {
+    float: right;
+}
